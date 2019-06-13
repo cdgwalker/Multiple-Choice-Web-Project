@@ -1,0 +1,193 @@
+h1 {
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+
+p {
+    color: #f8f8f8;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+body {
+    background-image: url("/Images/circles-dark.png");
+    opacity: 0.9;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sidenav {
+    width: 160px;
+    position: fixed!important;
+    z-index: 1;
+    top: 50px;
+    left: 15px;
+    background: #eee;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579
+}
+
+.main {
+    margin-left: 140px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    margin-right: 0px;
+    top: 50px;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    background-color: #ADD8E6;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#quiz p{
+    display: inline-block;
+    text-align: center;
+    text-decoration-color: black;
+}
+
+#ques {
+    color: black;
+}
+
+#results {
+    font-size: 160%;
+    font: "Arial Black";
+    margin: 5%;
+    padding: 5%;
+    min-width: 500px;
+    max-width: 600px;
+    width: 560px;
+    background-color: white;
+}
+
+form {
+    margin: 5%;
+    padding: 5%;
+    min-width: 500px;
+    max-width: 600px;
+    width: 560px;
+    background-color: white;
+}
+
+form label {
+    padding-left: 15px;
+}
+
+input[type='radio']:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid white;
+}
+
+.results {
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 250%;
+}
+
+.results thead td {
+    background: #1e90ff;
+    color: #FFFA33
+
+}
+
+.results tbody tr {
+    background: #FFFA33;
+    color: #1e90ff;
+}
